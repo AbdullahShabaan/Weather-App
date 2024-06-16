@@ -85,7 +85,7 @@ function show(activeState, ...weatherInfo) {
             <div class="box text-center">
                 <div class="wheather-info text-white">
                     <h3 class="mt-4">${name}</h3>
-                    <img src="../images/${
+                    <img src="images/${
                       weatherState.includes(currentWeather)
                         ? currentWeather
                         : "Partlycloudy"
